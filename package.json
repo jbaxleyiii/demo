@@ -1,0 +1,17 @@
+{
+  "name": "file-extraction",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "preapollo:check": "node extract.js",
+    "apollo:check": "apollo service:check"
+  },
+  "dependencies": {
+    "apollo-server": "^2.3.3",
+    "graphql": "^14.1.1",
+    "klaw-sync": "^6.0.0"
+  },
+  "devDependencies": {
+    "apollo": "^2.3.1"
+  }
+}

@@ -1,0 +1,8 @@
+extend type User {
+  favoriteMovies: [Movie]
+}
+
+type Movie implements Node {
+  id: ID!
+  title: String!
+}

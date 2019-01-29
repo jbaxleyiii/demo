@@ -1,0 +1,9 @@
+extend type Query {
+  me: User
+}
+
+type User implements Node {
+  id: ID!
+  firstName: String
+  email: String!
+}

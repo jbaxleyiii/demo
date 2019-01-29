@@ -1,0 +1,9 @@
+extend type Movie {
+  cast: [Actor]
+}
+
+type Actor implements Node {
+  id: ID!
+  roles: [Movie]
+  firstName: String
+}
